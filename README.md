@@ -13,6 +13,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 
+The run_analysis.R script allows to get and merge the training and test datasets and tidy it properly. The output is the tidy dataset. Additional comments whithin the script could allow the user to better understand the different steps. 
+
 ## Getting dataset
 The original test and training datasets are loaded into variables (subject, activity, and features). For each dataset, dataframes are generated based on the different imported vectors
 
@@ -27,3 +29,5 @@ The tidy dataset is then transferred ot dplyr table and arrange by subject and a
 
 ## Summarize data by subject and activity
 The tidy dataset is finally sumarized and average values for each measurement are calculated by subject and by activity. The summarized dataset is stored in summary_dataset table
+
+
