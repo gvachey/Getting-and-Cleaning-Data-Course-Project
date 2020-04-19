@@ -1,6 +1,7 @@
 # loading dplyr 
 library(dplyr)
 
+
 # Setting working directory
 setwd("/Users/gabrielvachey/DATA")
 

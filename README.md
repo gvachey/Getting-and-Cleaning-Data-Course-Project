@@ -30,4 +30,3 @@ The tidy dataset is then transferred ot dplyr table and arrange by subject and a
 ### Summarize data by subject and activity
 The tidy dataset is finally sumarized and average values for each measurement are calculated by subject and by activity. The summarized dataset is stored in summary_dataset table
 
-
