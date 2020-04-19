@@ -1,10 +1,3 @@
----
-title: "Getting-and-Cleaning-Data-Course-Project"
-author: "GV"
-date: "4/19/2020"
-output: html_document
----
-
 # Getting-and-Cleaning-Data-Course-Project
 
 ## Getting dataset
@@ -17,7 +10,7 @@ The test and training datasets are merged into a common dataset (data.merged). A
 Based on the names of the column of the dataset, columns with mean or std in their name are kept for the tidy dataset.
 
 ## Transferring dataset to dplyr table and ordering
-The tidy dataset is then transferred ot dplyr table and arrange by subject and activity.
+The tidy dataset is then transferred ot dplyr table and arrange by subject and activity. The tidy dataset is stored in tidy_dataset table.
 
 ## Summarize data by subject and activity
-
+The tidy dataset is finally sumarized and average values for each measurement are calculated by subject and by activity. The summarized dataset is stored in summary_dataset table
