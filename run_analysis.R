@@ -60,6 +60,7 @@ df <- arrange(df,subject, activity_num)
 
 ####### Tidy Dataset #######
 tidy_dataset <- df
+View(tidy_dataset)
 ############################
 
 
